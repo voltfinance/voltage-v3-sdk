@@ -1,4 +1,4 @@
-import { BigintIsh } from '@uniswap/sdk-core'
+import { BigintIsh } from '@voltage-finance/sdk-core'
 import JSBI from 'jsbi'
 
 /**

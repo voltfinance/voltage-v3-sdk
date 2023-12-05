@@ -1261,6 +1261,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@openzeppelin/contracts-upgradeable@3.4.2-solc-0.7":
+  version "3.4.2-solc-0.7"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-3.4.2-solc-0.7.tgz#9a5cdaf9f65bcd9a3b7e865f44a6f672afe7785e"
+  integrity sha512-I5iKKS8U9L1XdSxsNAIBQekN0U9hTgdleoyntIdR7Jy3U/z/NZ/1oUM0v5HnUMrmn/bXLvYL94rBvaLF++Ndnw==
+
 "@openzeppelin/contracts@3.4.1-solc-0.7-2":
   version "3.4.1-solc-0.7-2"
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.1-solc-0.7-2.tgz#371c67ebffe50f551c3146a9eec5fe6ffe862e92"
@@ -1534,18 +1539,6 @@
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
 
-"@uniswap/sdk-core@^4":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.2.tgz#2eca2b5bf00bad74519aef918465c19218285b4b"
-  integrity sha512-rR5xobsAAP4yMYC7C+0+duVx0pFoDn2lV9kTWpoKgH1WJuw7hD1uDEvuevU2dL89TuixVgGvnYd0QxmrMtsIlg==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 "@uniswap/swap-router-contracts@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@uniswap/swap-router-contracts/-/swap-router-contracts-1.2.1.tgz#223c8b6672b7754080d95ca917763d98feb5e696"
@@ -1600,6 +1593,34 @@
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
     "@uniswap/v3-core" "1.0.0"
     "@uniswap/v3-periphery" "^1.0.1"
+
+"@voltage-finance/sdk-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/sdk-core/-/sdk-core-1.0.1.tgz#7fbe29cfdbd34509f035cfb8fff69e9005cbaa77"
+  integrity sha512-Ik7/1LIg9Av7KC0h2/Ymw0u2+Rl8fmg/r0+9oCnxv98r/VMQpaCb0FrJPS1UJUFQC13a+9h/2gkLFKrbxW8aNQ==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@voltage-finance/v3-core@^1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/v3-core/-/v3-core-1.0.2.tgz#7f13669fdb9f241faaaf7ad1a7470684ea7fe91a"
+  integrity sha512-nvoBA1gHw8jYMChf1SrWQJR/k7kXtk5ByLMtz/hzSdh2z4+4E/OT9d1s692Nc5cqE4t8uuR4AF3YkmNAPlz5FQ==
+
+"@voltage-finance/v3-periphery@^1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/v3-periphery/-/v3-periphery-1.0.2.tgz#2b0a3369e7cdbe13259c25f98e2d83943e4fbf09"
+  integrity sha512-ZInpM3HxhLy0oz6JESRstEjab5Jc//KEpM/1c6aLFt2Av9LmocnuCxamVOCoiF4z0wjb34Zc6ZL6/SiNrdgiHQ==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@openzeppelin/contracts-upgradeable" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "1.0.1"
+    base64-sol "1.0.1"
 
 abab@^2.0.0:
   version "2.0.5"

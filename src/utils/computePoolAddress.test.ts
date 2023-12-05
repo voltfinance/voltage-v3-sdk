@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core'
+import { Token } from '@voltage-finance/sdk-core'
 import { FeeAmount } from '../constants'
 import { computePoolAddress } from './computePoolAddress'
 
@@ -11,10 +11,10 @@ describe('#computePoolAddress', () => {
       factoryAddress,
       fee: FeeAmount.LOW,
       tokenA,
-      tokenB
+      tokenB,
     })
 
-    expect(result).toEqual('0x90B1b09A9715CaDbFD9331b3A7652B24BfBEfD32')
+    expect(result).toEqual('0x26BdC565D3B7dE8Dc2E5A7d38fdF146b92274998')
   })
 
   it('should correctly compute the pool address', () => {
@@ -26,7 +26,7 @@ describe('#computePoolAddress', () => {
       factoryAddress,
       fee: FeeAmount.LOW,
       tokenA,
-      tokenB
+      tokenB,
     })
 
     tokenA = DAI
@@ -36,7 +36,7 @@ describe('#computePoolAddress', () => {
       factoryAddress,
       fee: FeeAmount.LOW,
       tokenA,
-      tokenB
+      tokenB,
     })
 
     expect(resultA).toEqual(resultB)
