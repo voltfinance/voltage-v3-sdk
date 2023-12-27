@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "⚒️ An SDK for building applications on top of Voltage V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,13 +29,13 @@
     "@uniswap/swap-router-contracts": "^1.2.1",
     "@uniswap/v3-periphery": "^1.1.1",
     "@uniswap/v3-staker": "1.0.0",
-    "@voltage-finance/sdk-core": "^1.0.2",
+    "@voltage-finance/sdk-core": "1.0.3",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
-    "@voltage-finance/v3-core": "^1.0.0",
+    "@voltage-finance/v3-core": "^1.0.3",
     "@voltage-finance/v3-periphery": "^1.0.0",
     "tsdx": "^0.14.1"
   },

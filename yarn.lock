@@ -1594,10 +1594,10 @@
     "@uniswap/v3-core" "1.0.0"
     "@uniswap/v3-periphery" "^1.0.1"
 
-"@voltage-finance/sdk-core@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@voltage-finance/sdk-core/-/sdk-core-1.0.2.tgz#138a86adc953ec5990cb472bf1e5c6bc4db82ef4"
-  integrity sha512-bRxKyzi+jKKMGTUXgrlnnYUdeigwz60xPm12tc/h0Vku7qhkB+JknD11jGSlN7MeUZCsG71MZKXhTslJx6hdrQ==
+"@voltage-finance/sdk-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/sdk-core/-/sdk-core-1.0.3.tgz#e8fddae5c0ce9a87cc62edcedaffba27685dba3e"
+  integrity sha512-NX7vTeTe8F3F/xC1zzWTFXGrOFUVs/j/ed2hASW21PD7Ki3s/dcn6RL2qjCJuzkwtwHUknuRPyca5B54qAZKLA==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1606,10 +1606,10 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@voltage-finance/v3-core@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@voltage-finance/v3-core/-/v3-core-1.0.2.tgz#7f13669fdb9f241faaaf7ad1a7470684ea7fe91a"
-  integrity sha512-nvoBA1gHw8jYMChf1SrWQJR/k7kXtk5ByLMtz/hzSdh2z4+4E/OT9d1s692Nc5cqE4t8uuR4AF3YkmNAPlz5FQ==
+"@voltage-finance/v3-core@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/v3-core/-/v3-core-1.0.3.tgz#f1f24ab4480826bf325b56bba001bfe63d971b9f"
+  integrity sha512-LDRSQrPQ4fwj7TLNPpOPpdDweMj73pyfkPGaezNRE5JwO0pv+HuiOa1moAeRBLKA9JNowS4KHRstu/Rl9MqF7w==
 
 "@voltage-finance/v3-periphery@^1.0.0":
   version "1.0.2"
