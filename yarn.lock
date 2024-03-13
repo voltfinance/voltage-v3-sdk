@@ -1594,10 +1594,10 @@
     "@uniswap/v3-core" "1.0.0"
     "@uniswap/v3-periphery" "^1.0.1"
 
-"@voltage-finance/sdk-core@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@voltage-finance/sdk-core/-/sdk-core-1.0.3.tgz#e8fddae5c0ce9a87cc62edcedaffba27685dba3e"
-  integrity sha512-NX7vTeTe8F3F/xC1zzWTFXGrOFUVs/j/ed2hASW21PD7Ki3s/dcn6RL2qjCJuzkwtwHUknuRPyca5B54qAZKLA==
+"@voltage-finance/sdk-core@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@voltage-finance/sdk-core/-/sdk-core-1.0.5.tgz#fa110256d4ce5118e4757d2bf638d5e3c0dc36b1"
+  integrity sha512-SfKb8pMt8mHCFbeqEhQe67koM9WcYnYK+PdTorGzQkdHpFtJl1vHLp3U6dROmeP8ldWeIbU2VwSjpWeVr3dMyQ==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
